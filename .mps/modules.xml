@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/com.am.stl.cost.sheet/com.am.stl.cost.sheet.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.am.stl.amminiature.costs/com.am.stl.amminiature.costs.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.am.stl.costcalculator.runtime/com.am.stl.costcalculator.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/jim.stl.meshImporter/jim.stl.meshImporter.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/kaitai.stl.parser/kaitai.stl.parser.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
