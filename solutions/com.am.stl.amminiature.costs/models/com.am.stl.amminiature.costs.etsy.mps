@@ -23,7 +23,6 @@
       </concept>
       <concept id="4497898133213784102" name="com.am.stl.cost.sheet.structure.MiniaturePrice" flags="ng" index="1csxqz">
         <property id="720108948954465694" name="resin" index="vZ9bo" />
-        <property id="9017355760362341932" name="showBreakdown" index="30B5d_" />
         <property id="8397985217154195446" name="price" index="3PZFNT" />
         <child id="4497898133213784103" name="files" index="1csxqy" />
       </concept>
@@ -129,7 +128,6 @@
         <property role="TrG5h" value="STL_Abbey_Monks_Altar_SUpported.stl" />
         <property role="vZ9bo" value="8.2" />
         <property role="3PZFNT" value="5.27" />
-        <property role="30B5d_" value="true" />
         <node concept="3VlSI9" id="1NGBtAfqFK9" role="1csxqy">
           <property role="3N1Lgt" value="D:\Prints\Store\STL Minis\Abbey Monks\Abbey_Monks_Altar\STL_Abbey_Monks_Altar_SUpported.stl" />
         </node>
@@ -6215,161 +6213,6 @@
         <property role="vZ9bo" value="8.5" />
         <property role="3PZFNT" value="5.30" />
         <node concept="3VlSI9" id="1NGBtAfqG7F" role="1csxqy">
-          <property role="3N1Lgt" value="D:\Prints\Store\STL Minis\Wizard\Supported\stl-wizard-weapon-rack-full-supported.stl" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1csxqw" id="7BAtQfZSwBk">
-    <property role="2icy9V" value="supported" />
-    <property role="3PXh1E" value="850" />
-    <property role="30mIww" value="90" />
-    <node concept="3PNdLM" id="7BAtQfZSwBs" role="3PNdM8">
-      <property role="TrG5h" value="Assasins" />
-      <property role="3PKq1j" value="true" />
-      <node concept="1csxqz" id="7BAtQfZSwBu" role="3PNdLL">
-        <property role="TrG5h" value="bLa" />
-      </node>
-    </node>
-    <node concept="3PLiaU" id="7BAtQfZSwBl" role="3PLiaR">
-      <ref role="3PLiaT" node="3TFJClM5BwL" resolve="Miniature Printing" />
-    </node>
-    <node concept="3PLiaU" id="7BAtQfZSwBn" role="3PLiaR">
-      <ref role="3PLiaT" node="3TFJClM6oMB" resolve="Etsy Taxes" />
-    </node>
-    <node concept="3RA$1b" id="7BAtQfZSwBq" role="2idXru">
-      <property role="3RA$18" value="store_files" />
-      <property role="3N1Lgt" value="STL Minis/Assassins" />
-    </node>
-  </node>
-  <node concept="1csxqw" id="7BAtQfZSwBw">
-    <property role="3PXh1E" value="850" />
-    <property role="30mIww" value="90" />
-    <property role="2icy9V" value="supported" />
-    <node concept="3PLiaU" id="7BAtQfZSwBx" role="3PLiaR">
-      <ref role="3PLiaT" node="3TFJClM5BwL" resolve="Miniature Printing" />
-    </node>
-    <node concept="3PLiaU" id="7BAtQfZSwBy" role="3PLiaR">
-      <ref role="3PLiaT" node="3TFJClM6oMB" resolve="Etsy Taxes" />
-    </node>
-    <node concept="3RA$1b" id="7BAtQfZSwBz" role="2idXru">
-      <property role="3RA$18" value="store_files" />
-      <property role="3N1Lgt" value="STL Minis" />
-    </node>
-    <node concept="3PNdLM" id="7BAtQfZSwYG" role="3PNdM8">
-      <property role="TrG5h" value="Wizard" />
-      <property role="3PKq1j" value="true" />
-      <property role="30Ffzj" value="66.78" />
-      <node concept="1csxqz" id="7BAtQfZSwYH" role="3PNdLL">
-        <property role="TrG5h" value="stl-staff-01-supported.stl" />
-        <property role="vZ9bo" value="0.4" />
-        <property role="3PZFNT" value="4.46" />
-        <property role="30B5d_" value="true" />
-        <node concept="3VlSI9" id="7BAtQfZSwYI" role="1csxqy">
-          <property role="3N1Lgt" value="D:\Prints\Store\STL Minis\Wizard\Supported\stl-staff-01-supported.stl" />
-        </node>
-      </node>
-      <node concept="1csxqz" id="7BAtQfZSwYJ" role="3PNdLL">
-        <property role="TrG5h" value="stl-staff-02-supported.stl" />
-        <property role="vZ9bo" value="1.0" />
-        <property role="3PZFNT" value="4.52" />
-        <node concept="3VlSI9" id="7BAtQfZSwYK" role="1csxqy">
-          <property role="3N1Lgt" value="D:\Prints\Store\STL Minis\Wizard\Supported\stl-staff-02-supported.stl" />
-        </node>
-      </node>
-      <node concept="1csxqz" id="7BAtQfZSwYL" role="3PNdLL">
-        <property role="TrG5h" value="stl-staff-03-supported.stl" />
-        <property role="vZ9bo" value="0.7" />
-        <property role="3PZFNT" value="4.49" />
-        <node concept="3VlSI9" id="7BAtQfZSwYM" role="1csxqy">
-          <property role="3N1Lgt" value="D:\Prints\Store\STL Minis\Wizard\Supported\stl-staff-03-supported.stl" />
-        </node>
-      </node>
-      <node concept="1csxqz" id="7BAtQfZSwYN" role="3PNdLL">
-        <property role="TrG5h" value="stl-sword-01-supported.stl" />
-        <property role="vZ9bo" value="0.4" />
-        <property role="3PZFNT" value="4.46" />
-        <node concept="3VlSI9" id="7BAtQfZSwYO" role="1csxqy">
-          <property role="3N1Lgt" value="D:\Prints\Store\STL Minis\Wizard\Supported\stl-sword-01-supported.stl" />
-        </node>
-      </node>
-      <node concept="1csxqz" id="7BAtQfZSwYP" role="3PNdLL">
-        <property role="TrG5h" value="stl-sword-02-supported.stl" />
-        <property role="vZ9bo" value="0.2" />
-        <property role="3PZFNT" value="4.44" />
-        <node concept="3VlSI9" id="7BAtQfZSwYQ" role="1csxqy">
-          <property role="3N1Lgt" value="D:\Prints\Store\STL Minis\Wizard\Supported\stl-sword-02-supported.stl" />
-        </node>
-      </node>
-      <node concept="1csxqz" id="7BAtQfZSwYR" role="3PNdLL">
-        <property role="TrG5h" value="stl-wizard-chair-supported.stl" />
-        <property role="vZ9bo" value="2.7" />
-        <property role="3PZFNT" value="4.70" />
-        <node concept="3VlSI9" id="7BAtQfZSwYS" role="1csxqy">
-          <property role="3N1Lgt" value="D:\Prints\Store\STL Minis\Wizard\Supported\stl-wizard-chair-supported.stl" />
-        </node>
-      </node>
-      <node concept="1csxqz" id="7BAtQfZSwYT" role="3PNdLL">
-        <property role="TrG5h" value="stl-wizard-crystal-ball-supported.stl" />
-        <property role="vZ9bo" value="2.8" />
-        <property role="3PZFNT" value="4.71" />
-        <node concept="3VlSI9" id="7BAtQfZSwYU" role="1csxqy">
-          <property role="3N1Lgt" value="D:\Prints\Store\STL Minis\Wizard\Supported\stl-wizard-crystal-ball-supported.stl" />
-        </node>
-      </node>
-      <node concept="1csxqz" id="7BAtQfZSwYV" role="3PNdLL">
-        <property role="TrG5h" value="stl-wizard-desk-supported.stl" />
-        <property role="vZ9bo" value="12.3" />
-        <property role="3PZFNT" value="5.69" />
-        <node concept="3VlSI9" id="7BAtQfZSwYW" role="1csxqy">
-          <property role="3N1Lgt" value="D:\Prints\Store\STL Minis\Wizard\Supported\stl-wizard-desk-supported.stl" />
-        </node>
-      </node>
-      <node concept="1csxqz" id="7BAtQfZSwYX" role="3PNdLL">
-        <property role="TrG5h" value="stl-wizard-display-table-supported.stl" />
-        <property role="vZ9bo" value="24.2" />
-        <property role="3PZFNT" value="6.92" />
-        <node concept="3VlSI9" id="7BAtQfZSwYY" role="1csxqy">
-          <property role="3N1Lgt" value="D:\Prints\Store\STL Minis\Wizard\Supported\stl-wizard-display-table-supported.stl" />
-        </node>
-      </node>
-      <node concept="1csxqz" id="7BAtQfZSwYZ" role="3PNdLL">
-        <property role="TrG5h" value="stl-wizard-enchanment-table-supported.stl" />
-        <property role="vZ9bo" value="10.3" />
-        <property role="3PZFNT" value="5.48" />
-        <node concept="3VlSI9" id="7BAtQfZSwZ0" role="1csxqy">
-          <property role="3N1Lgt" value="D:\Prints\Store\STL Minis\Wizard\Supported\stl-wizard-enchanment-table-supported.stl" />
-        </node>
-      </node>
-      <node concept="1csxqz" id="7BAtQfZSwZ1" role="3PNdLL">
-        <property role="TrG5h" value="stl-wizard-library-supported.stl" />
-        <property role="vZ9bo" value="38.0" />
-        <property role="3PZFNT" value="8.35" />
-        <node concept="3VlSI9" id="7BAtQfZSwZ2" role="1csxqy">
-          <property role="3N1Lgt" value="D:\Prints\Store\STL Minis\Wizard\Supported\stl-wizard-library-supported.stl" />
-        </node>
-      </node>
-      <node concept="1csxqz" id="7BAtQfZSwZ3" role="3PNdLL">
-        <property role="TrG5h" value="stl-wizard-supported-supported.stl" />
-        <property role="vZ9bo" value="11.5" />
-        <property role="3PZFNT" value="5.61" />
-        <node concept="3VlSI9" id="7BAtQfZSwZ4" role="1csxqy">
-          <property role="3N1Lgt" value="D:\Prints\Store\STL Minis\Wizard\Supported\stl-wizard-supported-supported.stl" />
-        </node>
-      </node>
-      <node concept="1csxqz" id="7BAtQfZSwZ5" role="3PNdLL">
-        <property role="TrG5h" value="stl-wizard-weapon-rack-empty-supported.stl" />
-        <property role="vZ9bo" value="6.3" />
-        <property role="3PZFNT" value="5.07" />
-        <node concept="3VlSI9" id="7BAtQfZSwZ6" role="1csxqy">
-          <property role="3N1Lgt" value="D:\Prints\Store\STL Minis\Wizard\Supported\stl-wizard-weapon-rack-empty-supported.stl" />
-        </node>
-      </node>
-      <node concept="1csxqz" id="7BAtQfZSwZ7" role="3PNdLL">
-        <property role="TrG5h" value="stl-wizard-weapon-rack-full-supported.stl" />
-        <property role="vZ9bo" value="8.5" />
-        <property role="3PZFNT" value="5.30" />
-        <node concept="3VlSI9" id="7BAtQfZSwZ8" role="1csxqy">
           <property role="3N1Lgt" value="D:\Prints\Store\STL Minis\Wizard\Supported\stl-wizard-weapon-rack-full-supported.stl" />
         </node>
       </node>
