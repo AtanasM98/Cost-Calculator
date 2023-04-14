@@ -4,6 +4,7 @@ source_gen.caches
 classes_gen
 test_gen
 test_gen.caches
+com.am.stl.amminiature.costs
 *.iws
 build.properties
 .mps/workspace.xml
