@@ -156,7 +156,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="20kJfa" value="files" />
-      <ref role="20lvS9" to="68mc:5Wocj7wnotA" resolve="AbstractFilePicker" />
+      <ref role="20lvS9" to="68mc:1jw2PJJHS3i" resolve="FileSystemFilePicker" />
     </node>
     <node concept="PrWs8" id="7ibCKY1hjz8" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -180,6 +180,11 @@
     <node concept="1TJgyi" id="7O$5kAXyeQq" role="1TKVEl">
       <property role="IQ2nx" value="9017355760359239066" />
       <property role="TrG5h" value="fullPrice" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7UtyvLw8n3E" role="1TKVEl">
+      <property role="IQ2nx" value="9123600137160061162" />
+      <property role="TrG5h" value="include" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="7ibCKY1hRXY" role="1TKVEi">
