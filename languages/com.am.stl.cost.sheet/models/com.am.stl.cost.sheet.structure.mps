@@ -130,6 +130,9 @@
       <property role="20kJfa" value="storeFolder" />
       <ref role="20lvS9" to="68mc:4eXJ6EO9ZKx" resolve="MacroFolderPicker" />
     </node>
+    <node concept="PrWs8" id="1ZNvhZ60Lhk" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3TFJClM6qwA">
     <property role="EcuMT" value="4497898133213784102" />
@@ -138,7 +141,27 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7ibCKY1thZQ" role="1TKVEl">
       <property role="IQ2nx" value="8397985217154195446" />
-      <property role="TrG5h" value="price" />
+      <property role="TrG5h" value="price32mm" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6GQmyOPVp5M" role="1TKVEl">
+      <property role="IQ2nx" value="7725461361025454450" />
+      <property role="TrG5h" value="price20mm" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6GQmyOPVp5R" role="1TKVEl">
+      <property role="IQ2nx" value="7725461361025454455" />
+      <property role="TrG5h" value="price28mm" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6GQmyOPVp5X" role="1TKVEl">
+      <property role="IQ2nx" value="7725461361025454461" />
+      <property role="TrG5h" value="price40mm" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6GQmyOPVp64" role="1TKVEl">
+      <property role="IQ2nx" value="7725461361025454468" />
+      <property role="TrG5h" value="price54mm" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="BYlOom0Gmu" role="1TKVEl">
@@ -179,7 +202,27 @@
     </node>
     <node concept="1TJgyi" id="7O$5kAXyeQq" role="1TKVEl">
       <property role="IQ2nx" value="9017355760359239066" />
-      <property role="TrG5h" value="fullPrice" />
+      <property role="TrG5h" value="fullPrice32mm" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6GQmyOPTArA" role="1TKVEl">
+      <property role="IQ2nx" value="7725461361024984806" />
+      <property role="TrG5h" value="fullPrice20mm" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6GQmyOPTuFd" role="1TKVEl">
+      <property role="IQ2nx" value="7725461361024953037" />
+      <property role="TrG5h" value="fullPrice28mm" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6GQmyOPTuFj" role="1TKVEl">
+      <property role="IQ2nx" value="7725461361024953043" />
+      <property role="TrG5h" value="fullPrice40mm" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6GQmyOPTuFq" role="1TKVEl">
+      <property role="IQ2nx" value="7725461361024953050" />
+      <property role="TrG5h" value="fullPrice54mm" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="7UtyvLw8n3E" role="1TKVEl">
