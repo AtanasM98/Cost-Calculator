@@ -10,4 +10,4 @@ build.properties
 .mps/workspace.xml
 .mps/inspectionProfiles
 
-com.am.stl.amminiature.costs/*
+solutions/com.am.stl.amminiature.costs
