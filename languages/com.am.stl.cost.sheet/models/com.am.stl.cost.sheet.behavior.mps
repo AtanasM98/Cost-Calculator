@@ -240,6 +240,30 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="4O7MHX9nSJh" role="13h7CS">
+      <property role="TrG5h" value="showScale" />
+      <node concept="3Tm1VV" id="4O7MHX9nSJi" role="1B3o_S" />
+      <node concept="10P_77" id="4O7MHX9nSM7" role="3clF45" />
+      <node concept="3clFbS" id="4O7MHX9nSJk" role="3clF47">
+        <node concept="3clFbF" id="4O7MHX9nSMq" role="3cqZAp">
+          <node concept="2OqwBi" id="4O7MHX9nSMr" role="3clFbG">
+            <node concept="2OqwBi" id="4O7MHX9nSMs" role="2Oq$k0">
+              <node concept="13iPFW" id="4O7MHX9nSMt" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="4O7MHX9nSMu" role="2OqNvi">
+                <node concept="1xMEDy" id="4O7MHX9nSMv" role="1xVPHs">
+                  <node concept="chp4Y" id="4O7MHX9nSMw" role="ri$Ld">
+                    <ref role="cht4Q" to="2n2l:7ibCKY1hRXX" resolve="MiniatureSet" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3TrcHB" id="4O7MHX9nSMx" role="2OqNvi">
+              <ref role="3TsBF5" to="2n2l:4O7MHX9mt6i" resolve="showScales" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13hLZK" id="7ibCKY1nf_5" role="13h7CW">
       <node concept="3clFbS" id="7ibCKY1nf_6" role="2VODD2" />
     </node>

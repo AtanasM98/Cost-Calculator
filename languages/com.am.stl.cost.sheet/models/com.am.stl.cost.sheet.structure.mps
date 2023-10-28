@@ -200,6 +200,11 @@
       <property role="TrG5h" value="showPaths" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="4O7MHX9mt6i" role="1TKVEl">
+      <property role="IQ2nx" value="5550628126114566546" />
+      <property role="TrG5h" value="showScales" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyi" id="7O$5kAXyeQq" role="1TKVEl">
       <property role="IQ2nx" value="9017355760359239066" />
       <property role="TrG5h" value="fullPrice32mm" />
