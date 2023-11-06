@@ -1,0 +1,176 @@
+import de.itemis.mps.gradle.*
+
+buildscript {
+    repositories {
+        maven {
+            url = uri('https://artifacts.itemis.cloud/repository/maven-mps/')
+        }
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'de.itemis.mps:mps-gradle-plugin:1.18+'
+    }
+}
+
+// Dependency versions
+ext.mpsVersion = '2021.1.4'
+//define directories
+ext.artifactsDir = new File(rootDir as File, 'build/artifacts')
+ext.libsDir = new File(rootDir as File, 'build/libs')
+ext.mpsDir = new File(artifactsDir, 'mps')
+
+apply plugin: 'base'
+apply plugin: 'java'
+apply plugin: 'maven-publish'
+
+// ------------- DEPENDENCY CONFIG -------------
+
+ext.dependencyRepositories = [
+        'https://artifacts.itemis.cloud/repository/maven-mps/'
+]
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    for (repoUrl in project.dependencyRepositories) {
+        maven {
+            url repoUrl
+        }
+    }
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId 'com.am'
+            artifactId 'cost-calculator'
+            version '0.0.1'
+            
+            // publish jar file.
+            // from components.java
+
+            // publish zip file.
+            artifact("$buildDir/artifacts/com.am/com.am.cost-calculator.zip") {
+                classifier "dist"
+                extension "zip"
+            } 
+        }
+    }
+}
+
+group 'com.am'
+
+// ___________________ utilities ___________________
+File scriptFile(String relativePath) {
+    new File("$rootDir/$relativePath")
+}
+
+configurations {
+    junitAnt
+    mps
+    mpsExtensions
+    libs
+}
+
+dependencies {
+    junitAnt 'org.apache.ant:ant-junit:1.10.12'
+    mps "com.jetbrains:mps:$mpsVersion"
+    libs "org.jdom:jdom:2.0.2"
+    mpsExtensions "de.itemis.mps:extensions:2022.3.2653.6ae0559"
+    libs "de.andreasgerhard.etsyapi:etsy-v3-api-client:1.3.1"
+}
+
+tasks.named('wrapper') {
+    distributionType = Wrapper.DistributionType.ALL
+}
+
+// ------------- DEPENDENCY RESOLUTION -------------
+// JDK_HOME required for adding tools.jar into classpath of the forked ant process
+if (!hasProperty("jdk_home")) {
+    ext.jdk_home = System.properties['java.home']
+}
+
+task resolveLibs(type: Copy) {
+    doFirst {
+        delete libsDir
+    }
+    from {
+        configurations.libs.resolve()
+    }
+    into libsDir
+}
+
+task resolveMps(type: Copy) {
+    dependsOn configurations.mps
+    from {
+        configurations.mps.resolve().collect { zipTree(it) }
+    }
+    into mpsDir
+}
+
+task resolveMpsExtensions(type: Copy) {
+    dependsOn configurations.mpsExtensions
+    from {
+        configurations.mpsExtensions.resolve().collect { zipTree(it) }
+    }
+    into artifactsDir
+}
+
+task resolveMpsArtifacts(type: Copy) {
+    from {
+        configurations.mpsArtifacts.resolve().collect { zipTree(it) }
+    }
+    into artifactsDir
+}
+
+task cleanMps(type: Delete) {
+    delete fileTree(dir: projectDir, include: ["**/classes_gen/**", "**/source_gen/**", "**/source_gen.caches/**", "tmp/**", "artifacts/**"])
+}
+
+// ------------- BUILD SCRIPT PARAMS -------------
+ext.mps_home = '-Dmps.home=' + mpsDir.getAbsolutePath()
+ext.project_home = '-Dcom.am.cost-calculator.home=' + file(rootDir).getAbsolutePath()
+
+// default arguments for ANT
+ext.defaultScriptArgs = [mps_home, project_home]
+ext.buildScriptClasspath = project.configurations.junitAnt.fileCollection({ true }) + project.files("$project.jdk_home/lib/tools.jar")
+// ------------- /BUILD SCRIPT PARAMS -------------
+
+//idea: run tasks for the generate .xml files directly
+task all_scripts(type: BuildLanguages, dependsOn: [resolveLibs, resolveMps, resolveMpsExtensions, resolveMpsArtifacts]) {
+    scriptArgs = defaultScriptArgs
+    scriptClasspath = buildScriptClasspath
+    script scriptFile('build-scripts.xml')
+}
+
+task build_languages(type: BuildLanguages, dependsOn: all_scripts) {
+    scriptArgs = defaultScriptArgs
+    description = "Build all MPS languages"
+    scriptClasspath = buildScriptClasspath
+    script scriptFile('build.xml')
+}
+
+task run_tests(type: TestLanguages, dependsOn: build_languages) {
+    scriptArgs = defaultScriptArgs
+    scriptClasspath = buildScriptClasspath
+    script scriptFile('build-tests.xml')
+}
+
+defaultTasks "build_languages"
+
+task generatedPomXml(dependsOn: tasks.resolveLibs) {
+    inputs.files(tasks.resolveLibs.outputs.files)
+    outputs.file("module-info.properties")
+    doLast {
+        publishing {
+            publications {
+                maven(MavenPublication) {
+                    from components.java
+                    artifact distZip
+                }
+            }
+        }
+    }
+    dependsOn tasks.resolveLibs
+}
