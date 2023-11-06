@@ -11,3 +11,8 @@ build.properties
 .mps/inspectionProfiles
 
 solutions/com.am.stl.amminiature.costs
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build

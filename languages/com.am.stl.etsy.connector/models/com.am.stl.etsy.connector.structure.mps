@@ -87,9 +87,21 @@
     <property role="EcuMT" value="2302321409941810264" />
     <property role="TrG5h" value="ConsoleMessage" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="1ZNvhZ6mULp" role="1TKVEl">
-      <property role="IQ2nx" value="2302321409941810265" />
-      <property role="TrG5h" value="message" />
+    <node concept="1TJgyj" id="69CvMRnXlHJ" role="1TKVEi">
+      <property role="IQ2ns" value="7091057448168282991" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="lines" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="69CvMRnXlHG" resolve="MessageLine" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="69CvMRnXlHG">
+    <property role="EcuMT" value="7091057448168282988" />
+    <property role="TrG5h" value="MessageLine" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="69CvMRnXlHH" role="1TKVEl">
+      <property role="IQ2nx" value="7091057448168282989" />
+      <property role="TrG5h" value="line" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
