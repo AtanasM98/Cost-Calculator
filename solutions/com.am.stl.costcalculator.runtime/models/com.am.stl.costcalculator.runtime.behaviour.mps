@@ -2,9 +2,9 @@
 <model ref="r:6f90b25a-5d3a-480d-9f53-402662133964(com.am.stl.costcalculator.runtime.behaviour)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="2a870ea5-08a8-4836-b9b5-36130b2faf7f" name="com.am.stl.cost.sheet" version="0" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
@@ -577,7 +577,7 @@
           <node concept="3cpWsn" id="7ibCKY1pbh$" role="3cpWs9">
             <property role="TrG5h" value="parentListing" />
             <node concept="3Tqbb2" id="7ibCKY1pbhw" role="1tU5fm">
-              <ref role="ehGHo" to="2n2l:3TFJClM6qw_" resolve="MiniatureListings" />
+              <ref role="ehGHo" to="2n2l:3TFJClM6qw_" resolve="MiniatureSection" />
             </node>
             <node concept="2OqwBi" id="7ibCKY1pbus" role="33vP2m">
               <node concept="37vLTw" id="7ibCKY1pblN" role="2Oq$k0">
@@ -586,7 +586,7 @@
               <node concept="2Xjw5R" id="7ibCKY1pbDJ" role="2OqNvi">
                 <node concept="1xMEDy" id="7ibCKY1pbDL" role="1xVPHs">
                   <node concept="chp4Y" id="7ibCKY1pbGs" role="ri$Ld">
-                    <ref role="cht4Q" to="2n2l:3TFJClM6qw_" resolve="MiniatureListings" />
+                    <ref role="cht4Q" to="2n2l:3TFJClM6qw_" resolve="MiniatureSection" />
                   </node>
                 </node>
               </node>
@@ -894,7 +894,7 @@
       <node concept="37vLTG" id="7ibCKY1paMi" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="7ibCKY1paMh" role="1tU5fm">
-          <ref role="ehGHo" to="2n2l:3TFJClM6qwA" resolve="MiniaturePrice" />
+          <ref role="ehGHo" to="2n2l:3TFJClM6qwA" resolve="Miniature" />
         </node>
       </node>
     </node>
@@ -1193,7 +1193,7 @@
       <node concept="37vLTG" id="BYlOom2lai" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="BYlOom2ldj" role="1tU5fm">
-          <ref role="ehGHo" to="2n2l:3TFJClM6qwA" resolve="MiniaturePrice" />
+          <ref role="ehGHo" to="2n2l:3TFJClM6qwA" resolve="Miniature" />
         </node>
       </node>
       <node concept="37vLTG" id="BYlOom2kZx" role="3clF46">

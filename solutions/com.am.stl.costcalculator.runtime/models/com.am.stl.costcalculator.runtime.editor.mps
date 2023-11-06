@@ -3,8 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="2a870ea5-08a8-4836-b9b5-36130b2faf7f" name="com.am.stl.cost.sheet" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
@@ -261,7 +261,7 @@
       <node concept="37vLTG" id="1ZNvhZ63FyY" role="3clF46">
         <property role="TrG5h" value="listings" />
         <node concept="3Tqbb2" id="1ZNvhZ63FyZ" role="1tU5fm">
-          <ref role="ehGHo" to="2n2l:3TFJClM6qw_" resolve="MiniatureListings" />
+          <ref role="ehGHo" to="2n2l:3TFJClM6qw_" resolve="MiniatureSection" />
         </node>
       </node>
       <node concept="3clFbS" id="4lnT93UxpHe" role="3clF47">
@@ -390,7 +390,7 @@
       <node concept="37vLTG" id="1ZNvhZ66odt" role="3clF46">
         <property role="TrG5h" value="listings" />
         <node concept="3Tqbb2" id="1ZNvhZ66odu" role="1tU5fm">
-          <ref role="ehGHo" to="2n2l:3TFJClM6qw_" resolve="MiniatureListings" />
+          <ref role="ehGHo" to="2n2l:3TFJClM6qw_" resolve="MiniatureSection" />
         </node>
       </node>
       <node concept="3clFbS" id="1ZNvhZ66ocU" role="3clF47">
@@ -490,7 +490,7 @@
       <node concept="37vLTG" id="1ZNvhZ63IDL" role="3clF46">
         <property role="TrG5h" value="listings" />
         <node concept="3Tqbb2" id="1ZNvhZ63IDM" role="1tU5fm">
-          <ref role="ehGHo" to="2n2l:3TFJClM6qw_" resolve="MiniatureListings" />
+          <ref role="ehGHo" to="2n2l:3TFJClM6qw_" resolve="MiniatureSection" />
         </node>
       </node>
       <node concept="3Tm6S6" id="4lnT93UxWY0" role="1B3o_S" />
@@ -598,11 +598,11 @@
                   <node concept="3cpWsn" id="1ZNvhZ66SDs" role="3cpWs9">
                     <property role="TrG5h" value="miniPrice" />
                     <node concept="3Tqbb2" id="1ZNvhZ66Jlk" role="1tU5fm">
-                      <ref role="ehGHo" to="2n2l:3TFJClM6qwA" resolve="MiniaturePrice" />
+                      <ref role="ehGHo" to="2n2l:3TFJClM6qwA" resolve="Miniature" />
                     </node>
                     <node concept="2pJPEk" id="1ZNvhZ66SDt" role="33vP2m">
                       <node concept="2pJPED" id="1ZNvhZ66SDu" role="2pJPEn">
-                        <ref role="2pJxaS" to="2n2l:3TFJClM6qwA" resolve="MiniaturePrice" />
+                        <ref role="2pJxaS" to="2n2l:3TFJClM6qwA" resolve="Miniature" />
                         <node concept="2pJxcG" id="1ZNvhZ66SDv" role="2pJxcM">
                           <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
                           <node concept="WxPPo" id="1ZNvhZ6lk5i" role="28ntcv">
@@ -799,11 +799,11 @@
                   <node concept="3cpWsn" id="1ZNvhZ6ct0w" role="3cpWs9">
                     <property role="TrG5h" value="miniPrice" />
                     <node concept="3Tqbb2" id="1ZNvhZ6ct0x" role="1tU5fm">
-                      <ref role="ehGHo" to="2n2l:3TFJClM6qwA" resolve="MiniaturePrice" />
+                      <ref role="ehGHo" to="2n2l:3TFJClM6qwA" resolve="Miniature" />
                     </node>
                     <node concept="2pJPEk" id="1ZNvhZ6ct0y" role="33vP2m">
                       <node concept="2pJPED" id="1ZNvhZ6ct0z" role="2pJPEn">
-                        <ref role="2pJxaS" to="2n2l:3TFJClM6qwA" resolve="MiniaturePrice" />
+                        <ref role="2pJxaS" to="2n2l:3TFJClM6qwA" resolve="Miniature" />
                         <node concept="2pJxcG" id="1ZNvhZ6ct0$" role="2pJxcM">
                           <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
                           <node concept="WxPPo" id="1ZNvhZ6ixjM" role="28ntcv">

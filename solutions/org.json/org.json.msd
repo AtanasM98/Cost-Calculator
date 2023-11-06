@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="kaitai.stl.parser" uuid="786d8709-5377-4aef-9675-58de56bacb75" moduleVersion="0" compileInMPS="true">
+<solution name="org.json" uuid="b6538638-516b-46fc-859d-597242238f96" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
-    <modelRoot contentPath="${module}/kaitai-struct-runtime-0.10.jar!/" type="java_classes">
+    <modelRoot contentPath="${module}/json-20231013.jar!/" type="java_classes">
       <sourceRoot location="." />
     </modelRoot>
   </models>
@@ -14,7 +14,7 @@
     </facet>
   </facets>
   <stubModelEntries>
-    <stubModelEntry path="${module}/kaitai-struct-runtime-0.10.jar" />
+    <stubModelEntry path="${module}/json-20231013.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
@@ -28,7 +28,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
-    <module reference="786d8709-5377-4aef-9675-58de56bacb75(kaitai.stl.parser)" version="0" />
+    <module reference="b6538638-516b-46fc-859d-597242238f96(org.json)" version="0" />
   </dependencyVersions>
 </solution>
 

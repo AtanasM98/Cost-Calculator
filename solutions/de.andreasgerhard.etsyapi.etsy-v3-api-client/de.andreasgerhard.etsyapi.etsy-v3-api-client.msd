@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="kaitai.stl.parser" uuid="786d8709-5377-4aef-9675-58de56bacb75" moduleVersion="0" compileInMPS="true">
+<solution name="de.andreasgerhard.etsyapi.etsy-v3-api-client" uuid="a22a4131-67f4-40c9-811b-d95899c72da3" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
-    <modelRoot contentPath="${module}/kaitai-struct-runtime-0.10.jar!/" type="java_classes">
+    <modelRoot contentPath="${module}/../../build/libs/etsy-v3-api-client-1.3.1.jar!/" type="java_classes">
       <sourceRoot location="." />
     </modelRoot>
   </models>
   <facets>
-    <facet type="java">
+    <facet languageLevel="JAVA_10" type="java">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <stubModelEntries>
-    <stubModelEntry path="${module}/kaitai-struct-runtime-0.10.jar" />
-  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
@@ -28,7 +25,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
-    <module reference="786d8709-5377-4aef-9675-58de56bacb75(kaitai.stl.parser)" version="0" />
+    <module reference="a22a4131-67f4-40c9-811b-d95899c72da3(de.andreasgerhard.etsyapi.etsy-v3-api-client)" version="0" />
   </dependencyVersions>
 </solution>
 
