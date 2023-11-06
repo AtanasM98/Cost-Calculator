@@ -159,8 +159,8 @@
     </language>
   </registry>
   <node concept="13h7C7" id="7ibCKY1nf_4">
-    <property role="3GE5qa" value="items" />
-    <ref role="13h7C2" to="2n2l:3TFJClM6qwA" resolve="MiniaturePrice" />
+    <property role="3GE5qa" value="items.miniatures" />
+    <ref role="13h7C2" to="2n2l:3TFJClM6qwA" resolve="Miniature" />
     <node concept="13i0hz" id="7ibCKY1nf_f" role="13h7CS">
       <property role="TrG5h" value="calculateResin" />
       <node concept="3Tm1VV" id="7ibCKY1nf_g" role="1B3o_S" />
@@ -269,7 +269,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="7O$5kAXA130">
-    <property role="3GE5qa" value="items" />
+    <property role="3GE5qa" value="items.miniatures" />
     <ref role="13h7C2" to="2n2l:7ibCKY1hRXX" resolve="MiniatureSet" />
     <node concept="13hLZK" id="7O$5kAXA131" role="13h7CW">
       <node concept="3clFbS" id="7O$5kAXA132" role="2VODD2" />

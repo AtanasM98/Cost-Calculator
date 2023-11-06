@@ -91,9 +91,9 @@
   </node>
   <node concept="1TIwiD" id="3TFJClM6qw_">
     <property role="EcuMT" value="4497898133213784101" />
-    <property role="TrG5h" value="MiniatureListings" />
+    <property role="TrG5h" value="MiniatureSection" />
     <property role="19KtqR" value="true" />
-    <property role="3GE5qa" value="items" />
+    <property role="3GE5qa" value="items.miniatures" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7ibCKY1vFd_" role="1TKVEl">
       <property role="IQ2nx" value="8397985217154823013" />
@@ -136,8 +136,8 @@
   </node>
   <node concept="1TIwiD" id="3TFJClM6qwA">
     <property role="EcuMT" value="4497898133213784102" />
-    <property role="TrG5h" value="MiniaturePrice" />
-    <property role="3GE5qa" value="items" />
+    <property role="TrG5h" value="Miniature" />
+    <property role="3GE5qa" value="items.miniatures" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7ibCKY1thZQ" role="1TKVEl">
       <property role="IQ2nx" value="8397985217154195446" />
@@ -188,7 +188,7 @@
   <node concept="1TIwiD" id="7ibCKY1hRXX">
     <property role="EcuMT" value="8397985217151205245" />
     <property role="TrG5h" value="MiniatureSet" />
-    <property role="3GE5qa" value="items" />
+    <property role="3GE5qa" value="items.miniatures" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7ibCKY1iwds" role="1TKVEl">
       <property role="IQ2nx" value="8397985217151370076" />
@@ -240,7 +240,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="miniatures" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3TFJClM6qwA" resolve="MiniaturePrice" />
+      <ref role="20lvS9" node="3TFJClM6qwA" resolve="Miniature" />
     </node>
     <node concept="1TJgyj" id="7ibCKY1xSBk" role="1TKVEi">
       <property role="IQ2ns" value="8397985217155402196" />
@@ -280,6 +280,32 @@
     <property role="TrG5h" value="MultiplicationCost" />
     <property role="34LRSv" value="*" />
     <ref role="1TJDcQ" node="1wHOeUwj7I4" resolve="ACost" />
+  </node>
+  <node concept="1TIwiD" id="WKP5qIaAnb">
+    <property role="EcuMT" value="1094608178205320651" />
+    <property role="3GE5qa" value="items" />
+    <property role="TrG5h" value="ItemSection" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="WKP5qIaGdc" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="WKP5qIbY1v" role="1TKVEi">
+      <property role="IQ2ns" value="1094608178205679711" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="set" />
+      <ref role="20lvS9" node="WKP5qIbXFf" resolve="ItemSet" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="WKP5qIbXFf">
+    <property role="EcuMT" value="1094608178205678287" />
+    <property role="3GE5qa" value="items" />
+    <property role="TrG5h" value="ItemSet" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="WKP5qIbY1t" role="1TKVEl">
+      <property role="IQ2nx" value="1094608178205679709" />
+      <property role="TrG5h" value="fullPrice" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
 </model>
 

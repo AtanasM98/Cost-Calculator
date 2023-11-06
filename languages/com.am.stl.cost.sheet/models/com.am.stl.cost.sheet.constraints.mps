@@ -344,7 +344,7 @@
   </node>
   <node concept="1M2fIO" id="6GQmyOPVqLY">
     <property role="3GE5qa" value="items.miniatures" />
-    <ref role="1M2myG" to="2n2l:3TFJClM6qwA" resolve="MiniaturePrice" />
+    <ref role="1M2myG" to="2n2l:3TFJClM6qwA" resolve="Miniature" />
     <node concept="EnEH3" id="6GQmyOPVuvF" role="1MhHOB">
       <ref role="EomxK" to="2n2l:6GQmyOPVp5M" resolve="price20mm" />
       <node concept="Eqf_E" id="6GQmyOQ08iF" role="EtsB7">
