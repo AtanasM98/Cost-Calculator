@@ -14,7 +14,7 @@
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">2ef9731a-0379-452a-8a50-95a5071f12af(com.am.stl.etsy.connector)</dependency>
-    <dependency reexport="false">b6538638-516b-46fc-859d-597242238f96(org.json)</dependency>
+    <dependency reexport="false">30e22743-873b-40d4-a672-903e7da682f4(com.am.stl.libs)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
@@ -35,8 +35,8 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="2ef9731a-0379-452a-8a50-95a5071f12af(com.am.stl.etsy.connector)" version="0" />
     <module reference="d818e7cd-b330-4219-bcd7-052afa21d249(com.am.stl.etsy.connector.runtime)" version="0" />
+    <module reference="30e22743-873b-40d4-a672-903e7da682f4(com.am.stl.libs)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
-    <module reference="b6538638-516b-46fc-859d-597242238f96(org.json)" version="0" />
   </dependencyVersions>
 </solution>
 
