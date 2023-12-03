@@ -3028,7 +3028,7 @@
             <node concept="3clFbF" id="4ZtvEOrWs3j" role="3cqZAp">
               <node concept="2OqwBi" id="4ZtvEOrWs3k" role="3clFbG">
                 <node concept="37vLTw" id="4ZtvEOrWs3l" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4ZtvEOrWs3d" resolve="increaseResinBy5" />
+                  <ref role="3cqZAo" node="4ZtvEOrWs3d" resolve="deccreaseResinBy5" />
                 </node>
                 <node concept="liA8E" id="4ZtvEOrWs3m" role="2OqNvi">
                   <ref role="37wK5l" to="dxuu:~AbstractButton.addActionListener(java.awt.event.ActionListener)" resolve="addActionListener" />
@@ -3188,7 +3188,7 @@
             <node concept="3clFbH" id="4ZtvEOrWs4m" role="3cqZAp" />
             <node concept="3clFbF" id="4ZtvEOrWs4n" role="3cqZAp">
               <node concept="37vLTw" id="4ZtvEOrWs4o" role="3clFbG">
-                <ref role="3cqZAo" node="4ZtvEOrWs3d" resolve="increaseResinBy5" />
+                <ref role="3cqZAo" node="4ZtvEOrWs3d" resolve="deccreaseResinBy5" />
               </node>
             </node>
           </node>

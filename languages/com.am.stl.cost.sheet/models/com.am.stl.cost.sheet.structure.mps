@@ -311,7 +311,7 @@
     <property role="EcuMT" value="3999296458281441363" />
     <property role="3GE5qa" value="items" />
     <property role="TrG5h" value="Item" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3u0mJ2bnHj5" role="1TKVEl">
       <property role="IQ2nx" value="3999296458281899205" />
       <property role="TrG5h" value="price" />
@@ -329,7 +329,7 @@
     <property role="EcuMT" value="3999296458282303022" />
     <property role="3GE5qa" value="items.properties" />
     <property role="TrG5h" value="Property" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3u0mJ2bpg44" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -346,7 +346,7 @@
     <property role="3GE5qa" value="items.properties" />
     <property role="TrG5h" value="APropertyValue" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="3u0mJ2brXZY">
     <property role="EcuMT" value="3999296458283016190" />
