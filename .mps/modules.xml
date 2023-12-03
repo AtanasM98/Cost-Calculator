@@ -4,10 +4,11 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/com.am.stl.cost.sheet/com.am.stl.cost.sheet.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.am.stl.etsy.connector/com.am.stl.etsy.connector.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.am.stl.etsy.listing/com.am.stl.etsy.listing.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.am.stl.amminiature.store/com.am.stl.amminiature.store.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.am.stl.costcalculator.runtime/com.am.stl.costcalculator.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.am.stl.etsy.connector.runtime/com.am.stl.etsy.connector.runtime.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/de.andreasgerhard.etsyapi.etsy-v3-api-client/de.andreasgerhard.etsyapi.etsy-v3-api-client.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.am.stl.libs/com.am.stl.libs.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/jim.stl.meshImporter/jim.stl.meshImporter.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/kaitai.stl.parser/kaitai.stl.parser.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.json/org.json.msd" folder="" />
