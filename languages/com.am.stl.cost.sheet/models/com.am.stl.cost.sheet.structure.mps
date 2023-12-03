@@ -138,7 +138,7 @@
     <property role="EcuMT" value="4497898133213784102" />
     <property role="TrG5h" value="Miniature" />
     <property role="3GE5qa" value="items.miniatures" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="3u0mJ2blXxj" resolve="Item" />
     <node concept="1TJgyi" id="7ibCKY1thZQ" role="1TKVEl">
       <property role="IQ2nx" value="8397985217154195446" />
       <property role="TrG5h" value="price32mm" />
@@ -305,6 +305,80 @@
       <property role="IQ2nx" value="1094608178205679709" />
       <property role="TrG5h" value="fullPrice" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3u0mJ2blXxj">
+    <property role="EcuMT" value="3999296458281441363" />
+    <property role="3GE5qa" value="items" />
+    <property role="TrG5h" value="Item" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="3u0mJ2bnHj5" role="1TKVEl">
+      <property role="IQ2nx" value="3999296458281899205" />
+      <property role="TrG5h" value="price" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="3u0mJ2bpLvJ" role="1TKVEi">
+      <property role="IQ2ns" value="3999296458282440687" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="properties" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3u0mJ2bpfSI" resolve="Property" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3u0mJ2bpfSI">
+    <property role="EcuMT" value="3999296458282303022" />
+    <property role="3GE5qa" value="items.properties" />
+    <property role="TrG5h" value="Property" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="3u0mJ2bpg44" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="3u0mJ2bpg_Q" role="1TKVEi">
+      <property role="IQ2ns" value="3999296458282305910" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20kJfa" value="value" />
+      <ref role="20lvS9" node="3u0mJ2bpgfw" resolve="APropertyValue" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3u0mJ2bpgfw">
+    <property role="EcuMT" value="3999296458282304480" />
+    <property role="3GE5qa" value="items.properties" />
+    <property role="TrG5h" value="APropertyValue" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+  </node>
+  <node concept="1TIwiD" id="3u0mJ2brXZY">
+    <property role="EcuMT" value="3999296458283016190" />
+    <property role="3GE5qa" value="items.properties" />
+    <property role="TrG5h" value="PropertyStringValue" />
+    <ref role="1TJDcQ" node="3u0mJ2bpgfw" resolve="APropertyValue" />
+    <node concept="1TJgyi" id="3u0mJ2brYfo" role="1TKVEl">
+      <property role="IQ2nx" value="3999296458283017176" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3u0mJ2brYl6">
+    <property role="EcuMT" value="3999296458283017542" />
+    <property role="3GE5qa" value="items.properties" />
+    <property role="TrG5h" value="PropertyBooleanValue" />
+    <ref role="1TJDcQ" node="3u0mJ2bpgfw" resolve="APropertyValue" />
+    <node concept="1TJgyi" id="3u0mJ2brYyu" role="1TKVEl">
+      <property role="IQ2nx" value="3999296458283018398" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3u0mJ2brYEe">
+    <property role="EcuMT" value="3999296458283018894" />
+    <property role="3GE5qa" value="items.properties" />
+    <property role="TrG5h" value="PropertyIntegerValue" />
+    <ref role="1TJDcQ" node="3u0mJ2bpgfw" resolve="APropertyValue" />
+    <node concept="1TJgyi" id="3u0mJ2brYRA" role="1TKVEl">
+      <property role="IQ2nx" value="3999296458283019750" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>
