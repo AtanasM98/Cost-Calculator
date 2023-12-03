@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="2n2l" ref="r:00510a41-5f4b-41ed-9451-d0cf418df52e(com.am.stl.cost.sheet.structure)" />
+    <import index="diza" ref="r:4f9cc213-900c-4814-8d69-f4e81f1595b9(com.am.stl.etsy.listing.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -99,13 +100,13 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="lines" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="69CvMRnXlHG" resolve="TextLine" />
+      <ref role="20lvS9" to="diza:69CvMRnXlHG" resolve="TextLine" />
     </node>
   </node>
   <node concept="1TIwiD" id="5FXNPtKK76R">
     <property role="EcuMT" value="6556624606982074807" />
     <property role="TrG5h" value="ListingEditor" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5FXNPtKK8VO" role="1TKVEl">
       <property role="IQ2nx" value="6556624606982082292" />
       <property role="TrG5h" value="id" />
@@ -140,29 +141,13 @@
       <property role="IQ2ns" value="6556624606982507712" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="description" />
-      <ref role="20lvS9" node="5FXNPtKK9nd" resolve="Text" />
+      <ref role="20lvS9" to="diza:5FXNPtKK9nd" resolve="Text" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="5FXNPtKK9nd">
-    <property role="EcuMT" value="6556624606982084045" />
-    <property role="TrG5h" value="Text" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyj" id="5FXNPtKKa5d" role="1TKVEi">
-      <property role="IQ2ns" value="6556624606982086989" />
+    <node concept="1TJgyj" id="4wITsB4vsTQ" role="1TKVEi">
+      <property role="IQ2ns" value="5201347274407267958" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="lines" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="69CvMRnXlHG" resolve="TextLine" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="69CvMRnXlHG">
-    <property role="EcuMT" value="7091057448168282988" />
-    <property role="TrG5h" value="TextLine" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="69CvMRnXlHH" role="1TKVEl">
-      <property role="IQ2nx" value="7091057448168282989" />
-      <property role="TrG5h" value="line" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <property role="20kJfa" value="listing" />
+      <ref role="20lvS9" to="diza:4wITsB4tsS2" resolve="Listing" />
     </node>
   </node>
 </model>
