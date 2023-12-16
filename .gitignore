@@ -4,13 +4,12 @@ source_gen.caches
 classes_gen
 test_gen
 test_gen.caches
-com.am.stl.amminiature.costs
 *.iws
 build.properties
 .mps/workspace.xml
 .mps/inspectionProfiles
 
-solutions/com.am.stl.amminiature.costs
+solutions/com.am.stl.amminiature.store
 # Ignore Gradle project-specific cache directory
 .gradle
 
