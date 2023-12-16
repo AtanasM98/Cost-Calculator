@@ -246,6 +246,9 @@
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
+      <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
+        <reference id="1138056516764" name="link" index="3Tt5mk" />
+      </concept>
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
@@ -621,7 +624,7 @@
           <node concept="3clFbS" id="7ibCKY1spMR" role="3clFbx">
             <node concept="2Gpval" id="7ibCKY1pfPM" role="3cqZAp">
               <node concept="2GrKxI" id="7ibCKY1pfPO" role="2Gsz3X">
-                <property role="TrG5h" value="file" />
+                <property role="TrG5h" value="miniFile" />
               </node>
               <node concept="2OqwBi" id="7ibCKY1pg1V" role="2GsD0m">
                 <node concept="37vLTw" id="7ibCKY1pfS9" role="2Oq$k0">
@@ -673,8 +676,13 @@
                             <property role="Xl_RC" value="Exception for " />
                           </node>
                           <node concept="2OqwBi" id="1NGBtAfq6ZY" role="3uHU7w">
-                            <node concept="2GrUjf" id="1NGBtAfq6AP" role="2Oq$k0">
-                              <ref role="2Gs0qQ" node="7ibCKY1pfPO" resolve="file" />
+                            <node concept="2OqwBi" id="yHEbP5s3Wg" role="2Oq$k0">
+                              <node concept="2GrUjf" id="1NGBtAfq6AP" role="2Oq$k0">
+                                <ref role="2Gs0qQ" node="7ibCKY1pfPO" resolve="miniFile" />
+                              </node>
+                              <node concept="3TrEf2" id="yHEbP5s4W1" role="2OqNvi">
+                                <ref role="3Tt5mk" to="2n2l:yHEbP5l_48" resolve="file" />
+                              </node>
                             </node>
                             <node concept="2qgKlT" id="1NGBtAfq7KE" role="2OqNvi">
                               <ref role="37wK5l" to="48kf:5lKnBeAuKov" resolve="getCanonicalPath" />
@@ -706,8 +714,13 @@
                           <ref role="37wK5l" node="7ibCKY1nFtD" resolve="fromFile" />
                           <ref role="1Pybhc" node="7ibCKY1nFom" resolve="Stl" />
                           <node concept="2OqwBi" id="7ibCKY1pgvZ" role="37wK5m">
-                            <node concept="2GrUjf" id="7ibCKY1pgmR" role="2Oq$k0">
-                              <ref role="2Gs0qQ" node="7ibCKY1pfPO" resolve="file" />
+                            <node concept="2OqwBi" id="yHEbP5s1HM" role="2Oq$k0">
+                              <node concept="2GrUjf" id="7ibCKY1pgmR" role="2Oq$k0">
+                                <ref role="2Gs0qQ" node="7ibCKY1pfPO" resolve="miniFile" />
+                              </node>
+                              <node concept="3TrEf2" id="yHEbP5s2C_" role="2OqNvi">
+                                <ref role="3Tt5mk" to="2n2l:yHEbP5l_48" resolve="file" />
+                              </node>
                             </node>
                             <node concept="2qgKlT" id="1NGBtAfiHde" role="2OqNvi">
                               <ref role="37wK5l" to="48kf:5lKnBeAuKov" resolve="getCanonicalPath" />
@@ -716,7 +729,6 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="7ibCKY1piuk" role="3cqZAp" />
                     <node concept="3clFbH" id="7ibCKY1piII" role="3cqZAp" />
                     <node concept="3cpWs8" id="7ibCKY1pi$p" role="3cqZAp">
                       <node concept="3cpWsn" id="7ibCKY1pi$s" role="3cpWs9">

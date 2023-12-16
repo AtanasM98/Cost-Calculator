@@ -822,17 +822,23 @@
                         </node>
                         <node concept="2pIpSj" id="1ZNvhZ6enOn" role="2pJxcM">
                           <ref role="2pIpSl" to="2n2l:3TFJClM6qwB" resolve="files" />
-                          <node concept="2pJPED" id="1ZNvhZ6esIR" role="28nt2d">
-                            <ref role="2pJxaS" to="68mc:1jw2PJJHS3i" resolve="FileSystemFilePicker" />
-                            <node concept="2pJxcG" id="1ZNvhZ6eyKy" role="2pJxcM">
-                              <ref role="2pJxcJ" to="68mc:5lKnBeAtODI" resolve="path" />
-                              <node concept="WxPPo" id="1ZNvhZ6eA2G" role="28ntcv">
-                                <node concept="2OqwBi" id="1ZNvhZ6eGK4" role="WxPPp">
-                                  <node concept="2GrUjf" id="1ZNvhZ6eA2E" role="2Oq$k0">
-                                    <ref role="2Gs0qQ" node="1ZNvhZ6aN1B" resolve="file" />
-                                  </node>
-                                  <node concept="liA8E" id="1ZNvhZ6eIJi" role="2OqNvi">
-                                    <ref role="37wK5l" to="guwi:~File.getAbsolutePath()" resolve="getAbsolutePath" />
+                          <node concept="2pJPED" id="yHEbP5sm2R" role="28nt2d">
+                            <ref role="2pJxaS" to="2n2l:yHEbP5l$Tc" resolve="MiniatureFile" />
+                            <node concept="2pIpSj" id="yHEbP5sp_B" role="2pJxcM">
+                              <ref role="2pIpSl" to="2n2l:yHEbP5l_48" resolve="file" />
+                              <node concept="2pJPED" id="yHEbP5stu5" role="28nt2d">
+                                <ref role="2pJxaS" to="68mc:1jw2PJJHS3i" resolve="FileSystemFilePicker" />
+                                <node concept="2pJxcG" id="1ZNvhZ6eyKy" role="2pJxcM">
+                                  <ref role="2pJxcJ" to="68mc:5lKnBeAtODI" resolve="path" />
+                                  <node concept="WxPPo" id="1ZNvhZ6eA2G" role="28ntcv">
+                                    <node concept="2OqwBi" id="1ZNvhZ6eGK4" role="WxPPp">
+                                      <node concept="2GrUjf" id="1ZNvhZ6eA2E" role="2Oq$k0">
+                                        <ref role="2Gs0qQ" node="1ZNvhZ6aN1B" resolve="file" />
+                                      </node>
+                                      <node concept="liA8E" id="1ZNvhZ6eIJi" role="2OqNvi">
+                                        <ref role="37wK5l" to="guwi:~File.getAbsolutePath()" resolve="getAbsolutePath" />
+                                      </node>
+                                    </node>
                                   </node>
                                 </node>
                               </node>
@@ -958,12 +964,12 @@
           <node concept="3cpWsn" id="1ZNvhZ68iho" role="3cpWs9">
             <property role="TrG5h" value="files" />
             <node concept="2I9FWS" id="1ZNvhZ68ihk" role="1tU5fm">
-              <ref role="2I9WkF" to="68mc:1jw2PJJHS3i" resolve="FileSystemFilePicker" />
+              <ref role="2I9WkF" to="2n2l:yHEbP5l$Tc" resolve="MiniatureFile" />
             </node>
             <node concept="2ShNRf" id="1ZNvhZ68l4G" role="33vP2m">
               <node concept="2T8Vx0" id="1ZNvhZ68nRN" role="2ShVmc">
                 <node concept="2I9FWS" id="1ZNvhZ68nRP" role="2T96Bj">
-                  <ref role="2I9WkF" to="68mc:1jw2PJJHS3i" resolve="FileSystemFilePicker" />
+                  <ref role="2I9WkF" to="2n2l:yHEbP5l$Tc" resolve="MiniatureFile" />
                 </node>
               </node>
             </node>
@@ -1098,12 +1104,18 @@
                       <node concept="TSZUe" id="1ZNvhZ68rzp" role="2OqNvi">
                         <node concept="2pJPEk" id="1ZNvhZ68rzq" role="25WWJ7">
                           <node concept="2pJPED" id="1ZNvhZ68rzr" role="2pJPEn">
-                            <ref role="2pJxaS" to="68mc:1jw2PJJHS3i" resolve="FileSystemFilePicker" />
-                            <node concept="2pJxcG" id="1ZNvhZ68rzs" role="2pJxcM">
-                              <ref role="2pJxcJ" to="68mc:5lKnBeAtODI" resolve="path" />
-                              <node concept="WxPPo" id="1ZNvhZ68rzt" role="28ntcv">
-                                <node concept="37vLTw" id="1ZNvhZ68rzu" role="WxPPp">
-                                  <ref role="3cqZAo" node="1ZNvhZ68rzd" resolve="miniPath" />
+                            <ref role="2pJxaS" to="2n2l:yHEbP5l$Tc" resolve="MiniatureFile" />
+                            <node concept="2pIpSj" id="yHEbP5trSm" role="2pJxcM">
+                              <ref role="2pIpSl" to="2n2l:yHEbP5l_48" resolve="file" />
+                              <node concept="2pJPED" id="yHEbP5tvUT" role="28nt2d">
+                                <ref role="2pJxaS" to="68mc:1jw2PJJHS3i" resolve="FileSystemFilePicker" />
+                                <node concept="2pJxcG" id="1ZNvhZ68rzs" role="2pJxcM">
+                                  <ref role="2pJxcJ" to="68mc:5lKnBeAtODI" resolve="path" />
+                                  <node concept="WxPPo" id="1ZNvhZ68rzt" role="28ntcv">
+                                    <node concept="37vLTw" id="1ZNvhZ68rzu" role="WxPPp">
+                                      <ref role="3cqZAo" node="1ZNvhZ68rzd" resolve="miniPath" />
+                                    </node>
+                                  </node>
                                 </node>
                               </node>
                             </node>
@@ -1126,7 +1138,7 @@
       </node>
       <node concept="3Tm6S6" id="1ZNvhZ68gOy" role="1B3o_S" />
       <node concept="2I9FWS" id="1ZNvhZ68hxb" role="3clF45">
-        <ref role="2I9WkF" to="68mc:1jw2PJJHS3i" resolve="FileSystemFilePicker" />
+        <ref role="2I9WkF" to="2n2l:yHEbP5l$Tc" resolve="MiniatureFile" />
       </node>
       <node concept="37vLTG" id="1ZNvhZ68qPa" role="3clF46">
         <property role="TrG5h" value="folder" />
