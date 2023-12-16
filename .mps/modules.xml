@@ -5,6 +5,8 @@
       <modulePath path="$PROJECT_DIR$/languages/com.am.stl.cost.sheet/com.am.stl.cost.sheet.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.am.stl.etsy.connector/com.am.stl.etsy.connector.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.am.stl.etsy.listing/com.am.stl.etsy.listing.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.am.stl.shopify.connector/com.am.stl.shopify.connector.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.am.stl.shopify.store/com.am.stl.shopify.store.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.am.stl.amminiature.store/com.am.stl.amminiature.store.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.am.stl.costcalculator.runtime/com.am.stl.costcalculator.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.am.stl.etsy.connector.runtime/com.am.stl.etsy.connector.runtime.msd" folder="" />
