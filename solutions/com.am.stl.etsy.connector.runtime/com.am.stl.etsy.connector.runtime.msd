@@ -35,7 +35,7 @@
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
-    <module reference="2ef9731a-0379-452a-8a50-95a5071f12af(com.am.stl.etsy.connector)" version="1" />
+    <module reference="2ef9731a-0379-452a-8a50-95a5071f12af(com.am.stl.etsy.connector)" version="2" />
     <module reference="d818e7cd-b330-4219-bcd7-052afa21d249(com.am.stl.etsy.connector.runtime)" version="0" />
     <module reference="180877ea-a671-4172-a107-7e8ef7eaf5fa(com.am.stl.etsy.listing)" version="0" />
     <module reference="30e22743-873b-40d4-a672-903e7da682f4(com.am.stl.libs)" version="0" />
