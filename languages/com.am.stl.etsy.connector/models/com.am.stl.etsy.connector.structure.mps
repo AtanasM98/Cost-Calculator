@@ -147,7 +147,7 @@
       <property role="IQ2ns" value="5201347274407267958" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="listing" />
-      <ref role="20lvS9" to="diza:4wITsB4tsS2" resolve="Listing" />
+      <ref role="20lvS9" to="diza:yHEbP5UuGS" resolve="AListing" />
     </node>
   </node>
 </model>
