@@ -179,7 +179,14 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="20kJfa" value="files" />
-      <ref role="20lvS9" to="68mc:1jw2PJJHS3i" resolve="FileSystemFilePicker" />
+      <ref role="20lvS9" node="yHEbP5l$Tc" resolve="MiniatureFile" />
+    </node>
+    <node concept="1TJgyj" id="3FTnLIdKov8" role="1TKVEi">
+      <property role="IQ2ns" value="4249532295347800008" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="images" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="68mc:7c_RIoB8H2I" resolve="MacroFilePicker" />
     </node>
     <node concept="PrWs8" id="7ibCKY1hjz8" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -379,6 +386,18 @@
       <property role="IQ2nx" value="3999296458283019750" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="yHEbP5l$Tc">
+    <property role="EcuMT" value="625341454139936332" />
+    <property role="3GE5qa" value="items.miniatures" />
+    <property role="TrG5h" value="MiniatureFile" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="yHEbP5l_48" role="1TKVEi">
+      <property role="IQ2ns" value="625341454139937032" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="file" />
+      <ref role="20lvS9" to="68mc:1jw2PJJHS3i" resolve="FileSystemFilePicker" />
     </node>
   </node>
 </model>

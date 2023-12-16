@@ -44,6 +44,10 @@
       </concept>
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
+      <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
+        <reference id="5455284157994012188" name="link" index="2pIpSl" />
+        <child id="1595412875168045827" name="initValue" index="28nt2d" />
+      </concept>
       <concept id="5455284157993911077" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitProperty" flags="ng" index="2pJxcG">
         <reference id="5455284157993911078" name="property" index="2pJxcJ" />
         <child id="1595412875168045201" name="initValue" index="28ntcv" />
@@ -117,30 +121,36 @@
               </node>
             </node>
             <node concept="TSZUe" id="4x5OJKQy1cb" role="2OqNvi">
-              <node concept="2pJPEk" id="4oZPoUvttp5" role="25WWJ7">
-                <node concept="2pJPED" id="4oZPoUvttp7" role="2pJPEn">
-                  <ref role="2pJxaS" to="68mc:1jw2PJJHS3i" resolve="FileSystemFilePicker" />
-                  <node concept="2pJxcG" id="4oZPoUvttNa" role="2pJxcM">
-                    <ref role="2pJxcJ" to="68mc:5lKnBeAtODI" resolve="path" />
-                    <node concept="WxPPo" id="4oZPoUvtubE" role="28ntcv">
-                      <node concept="2OqwBi" id="4oZPoUvtvaX" role="WxPPp">
-                        <node concept="2OqwBi" id="4oZPoUvtuG_" role="2Oq$k0">
-                          <node concept="2OqwBi" id="4oZPoUvtudY" role="2Oq$k0">
-                            <node concept="2Sf5sV" id="4oZPoUvtubD" role="2Oq$k0" />
-                            <node concept="2Xjw5R" id="4oZPoUvtur7" role="2OqNvi">
-                              <node concept="1xMEDy" id="4oZPoUvtur9" role="1xVPHs">
-                                <node concept="chp4Y" id="4oZPoUvtuvA" role="ri$Ld">
-                                  <ref role="cht4Q" to="2n2l:7ibCKY1hRXX" resolve="MiniatureSet" />
+              <node concept="2pJPEk" id="yHEbP5q09L" role="25WWJ7">
+                <node concept="2pJPED" id="yHEbP5q09M" role="2pJPEn">
+                  <ref role="2pJxaS" to="2n2l:yHEbP5l$Tc" resolve="MiniatureFile" />
+                  <node concept="2pIpSj" id="yHEbP5q0qQ" role="2pJxcM">
+                    <ref role="2pIpSl" to="2n2l:yHEbP5l_48" resolve="file" />
+                    <node concept="2pJPED" id="yHEbP5q0Rd" role="28nt2d">
+                      <ref role="2pJxaS" to="68mc:1jw2PJJHS3i" resolve="FileSystemFilePicker" />
+                      <node concept="2pJxcG" id="yHEbP5q0WW" role="2pJxcM">
+                        <ref role="2pJxcJ" to="68mc:5lKnBeAtODI" resolve="path" />
+                        <node concept="WxPPo" id="yHEbP5q0WX" role="28ntcv">
+                          <node concept="2OqwBi" id="yHEbP5q0WY" role="WxPPp">
+                            <node concept="2OqwBi" id="yHEbP5q0WZ" role="2Oq$k0">
+                              <node concept="2OqwBi" id="yHEbP5q0X0" role="2Oq$k0">
+                                <node concept="2Sf5sV" id="yHEbP5q0X1" role="2Oq$k0" />
+                                <node concept="2Xjw5R" id="yHEbP5q0X2" role="2OqNvi">
+                                  <node concept="1xMEDy" id="yHEbP5q0X3" role="1xVPHs">
+                                    <node concept="chp4Y" id="yHEbP5q0X4" role="ri$Ld">
+                                      <ref role="cht4Q" to="2n2l:7ibCKY1hRXX" resolve="MiniatureSet" />
+                                    </node>
+                                  </node>
                                 </node>
                               </node>
+                              <node concept="3TrEf2" id="yHEbP5q0X5" role="2OqNvi">
+                                <ref role="3Tt5mk" to="2n2l:7ibCKY1xSBk" resolve="folder" />
+                              </node>
+                            </node>
+                            <node concept="2qgKlT" id="yHEbP5q0X6" role="2OqNvi">
+                              <ref role="37wK5l" to="48kf:5lKnBeAuKov" resolve="getCanonicalPath" />
                             </node>
                           </node>
-                          <node concept="3TrEf2" id="4oZPoUvtuUj" role="2OqNvi">
-                            <ref role="3Tt5mk" to="2n2l:7ibCKY1xSBk" resolve="folder" />
-                          </node>
-                        </node>
-                        <node concept="2qgKlT" id="4oZPoUvtvsA" role="2OqNvi">
-                          <ref role="37wK5l" to="48kf:5lKnBeAuKov" resolve="getCanonicalPath" />
                         </node>
                       </node>
                     </node>
