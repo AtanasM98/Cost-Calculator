@@ -125,7 +125,7 @@
                 <node concept="2pJPED" id="yHEbP5q09M" role="2pJPEn">
                   <ref role="2pJxaS" to="2n2l:yHEbP5l$Tc" resolve="MiniatureFile" />
                   <node concept="2pIpSj" id="yHEbP5q0qQ" role="2pJxcM">
-                    <ref role="2pIpSl" to="2n2l:yHEbP5l_48" resolve="file" />
+                    <ref role="2pIpSl" to="2n2l:552ziWHpZpm" resolve="file" />
                     <node concept="2pJPED" id="yHEbP5q0Rd" role="28nt2d">
                       <ref role="2pJxaS" to="68mc:1jw2PJJHS3i" resolve="FileSystemFilePicker" />
                       <node concept="2pJxcG" id="yHEbP5q0WW" role="2pJxcM">

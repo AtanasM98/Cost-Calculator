@@ -19,6 +19,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -181,15 +184,22 @@
       <property role="20kJfa" value="files" />
       <ref role="20lvS9" node="yHEbP5l$Tc" resolve="MiniatureFile" />
     </node>
-    <node concept="1TJgyj" id="3FTnLIdKov8" role="1TKVEi">
-      <property role="IQ2ns" value="4249532295347800008" />
+    <node concept="1TJgyj" id="3X9U0Y__A6A" role="1TKVEi">
+      <property role="IQ2ns" value="4560431251589587366" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="images" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="68mc:7c_RIoB8H2I" resolve="MacroFilePicker" />
+      <property role="20kJfa" value="exportFolder" />
+      <ref role="20lvS9" to="68mc:4eXJ6EO9ZKx" resolve="MacroFolderPicker" />
     </node>
     <node concept="PrWs8" id="7ibCKY1hjz8" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="3X9U0Y__Iwo" role="PzmwI">
+      <ref role="PrY4T" node="3X9U0Y_yRM0" resolve="ICanExportToXml" />
+    </node>
+    <node concept="1TJgyj" id="552ziWHt14W" role="1TKVEi">
+      <property role="IQ2ns" value="5855397699300626748" />
+      <property role="20kJfa" value="image" />
+      <ref role="20lvS9" node="552ziWHpZ0y" resolve="MiniatureImage" />
     </node>
   </node>
   <node concept="1TIwiD" id="7ibCKY1hRXX">
@@ -254,6 +264,13 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="folder" />
       <ref role="20lvS9" to="68mc:4eXJ6EO9ZKx" resolve="MacroFolderPicker" />
+    </node>
+    <node concept="1TJgyj" id="552ziWH5evj" role="1TKVEi">
+      <property role="IQ2ns" value="5855397699294390227" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="images" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="552ziWHpZ0y" resolve="MiniatureImage" />
     </node>
     <node concept="PrWs8" id="7ibCKY1iaKE" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -392,12 +409,35 @@
     <property role="EcuMT" value="625341454139936332" />
     <property role="3GE5qa" value="items.miniatures" />
     <property role="TrG5h" value="MiniatureFile" />
+    <ref role="1TJDcQ" node="552ziWHpZ8h" resolve="AFileContainer" />
+  </node>
+  <node concept="1TIwiD" id="552ziWHpZ0y">
+    <property role="EcuMT" value="5855397699299831842" />
+    <property role="3GE5qa" value="items.miniatures" />
+    <property role="TrG5h" value="MiniatureImage" />
+    <ref role="1TJDcQ" node="552ziWHpZ8h" resolve="AFileContainer" />
+    <node concept="PrWs8" id="3X9U0Y_vVb$" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="552ziWHpZ8h">
+    <property role="EcuMT" value="5855397699299832337" />
+    <property role="3GE5qa" value="items.miniatures" />
+    <property role="TrG5h" value="AFileContainer" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="yHEbP5l_48" role="1TKVEi">
-      <property role="IQ2ns" value="625341454139937032" />
+    <node concept="1TJgyj" id="552ziWHpZpm" role="1TKVEi">
+      <property role="IQ2ns" value="5855397699299833430" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="file" />
       <ref role="20lvS9" to="68mc:1jw2PJJHS3i" resolve="FileSystemFilePicker" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3X9U0Y_yRM0">
+    <property role="EcuMT" value="4560431251588873344" />
+    <property role="TrG5h" value="ICanExportToXml" />
+    <node concept="PrWs8" id="3X9U0Y_zszU" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
