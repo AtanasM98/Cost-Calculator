@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="com.am.stl.shopify.store" uuid="e97115ab-01f1-43a3-8fa1-e65df2a1c746" languageVersion="0" moduleVersion="0">
+<language namespace="com.am.stl.store" uuid="beac8bc3-51c3-4a61-b6e3-c8759b4f4eb4" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -12,7 +12,7 @@
   </facets>
   <accessoryModels />
   <generators>
-    <generator alias="main" namespace="com.am.stl.shopify.store.generator" uuid="7eb39ec0-d288-428c-9b3c-fa613dd1fe2d">
+    <generator alias="main" namespace="com.am.stl.store.generator" uuid="04a2bcdd-deef-421d-9d73-bd55227a7c95">
       <models>
         <modelRoot contentPath="${module}/generator" type="default">
           <sourceRoot location="templates" />
@@ -50,20 +50,15 @@
         <module reference="2ef9731a-0379-452a-8a50-95a5071f12af(com.am.stl.etsy.connector)" version="1" />
         <module reference="d818e7cd-b330-4219-bcd7-052afa21d249(com.am.stl.etsy.connector.runtime)" version="0" />
         <module reference="180877ea-a671-4172-a107-7e8ef7eaf5fa(com.am.stl.etsy.listing)" version="2" />
-        <module reference="e97115ab-01f1-43a3-8fa1-e65df2a1c746(com.am.stl.shopify.store)" version="0" />
-        <module reference="7eb39ec0-d288-428c-9b3c-fa613dd1fe2d(com.am.stl.shopify.store.generator)" version="0" />
         <module reference="beac8bc3-51c3-4a61-b6e3-c8759b4f4eb4(com.am.stl.store)" version="0" />
+        <module reference="04a2bcdd-deef-421d-9d73-bd55227a7c95(com.am.stl.store.generator)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
   </generators>
   <sourcePath />
-  <dependencies>
-    <dependency reexport="false">beac8bc3-51c3-4a61-b6e3-c8759b4f4eb4(com.am.stl.store)</dependency>
-  </dependencies>
   <languageVersions>
-    <language slang="l:1919c723-b60b-4592-9318-9ce96d91da44:de.itemis.mps.editor.celllayout" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -103,13 +98,12 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="2ef9731a-0379-452a-8a50-95a5071f12af(com.am.stl.etsy.connector)" version="1" />
     <module reference="180877ea-a671-4172-a107-7e8ef7eaf5fa(com.am.stl.etsy.listing)" version="2" />
-    <module reference="e97115ab-01f1-43a3-8fa1-e65df2a1c746(com.am.stl.shopify.store)" version="0" />
     <module reference="beac8bc3-51c3-4a61-b6e3-c8759b4f4eb4(com.am.stl.store)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
   </dependencyVersions>
   <extendedLanguages>
-    <extendedLanguage>beac8bc3-51c3-4a61-b6e3-c8759b4f4eb4(com.am.stl.store)</extendedLanguage>
+    <extendedLanguage>180877ea-a671-4172-a107-7e8ef7eaf5fa(com.am.stl.etsy.listing)</extendedLanguage>
   </extendedLanguages>
 </language>
 

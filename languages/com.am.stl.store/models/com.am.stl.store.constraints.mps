@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:23167de3-df64-4fd1-912e-39f121cd4225(com.am.stl.shopify.store.constraints)">
+<model ref="r:3d0e9774-ac67-4d55-bd5c-40df3550cd2f(com.am.stl.store.constraints)">
   <persistence version="9" />
   <languages>
     <use id="5dae8159-ab99-46bb-a40d-0cee30ee7018" name="jetbrains.mps.lang.constraints.rules.kinds" version="0" />

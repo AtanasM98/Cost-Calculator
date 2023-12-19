@@ -115,8 +115,9 @@
     <module reference="2a870ea5-08a8-4836-b9b5-36130b2faf7f(com.am.stl.cost.sheet)" version="0" />
     <module reference="2ef9731a-0379-452a-8a50-95a5071f12af(com.am.stl.etsy.connector)" version="2" />
     <module reference="d818e7cd-b330-4219-bcd7-052afa21d249(com.am.stl.etsy.connector.runtime)" version="0" />
-    <module reference="180877ea-a671-4172-a107-7e8ef7eaf5fa(com.am.stl.etsy.listing)" version="0" />
+    <module reference="180877ea-a671-4172-a107-7e8ef7eaf5fa(com.am.stl.etsy.listing)" version="2" />
     <module reference="30e22743-873b-40d4-a672-903e7da682f4(com.am.stl.libs)" version="0" />
+    <module reference="beac8bc3-51c3-4a61-b6e3-c8759b4f4eb4(com.am.stl.store)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
     <module reference="e39e4a59-8cb6-498e-860e-8fa8361c0d90(jetbrains.mps.baseLanguage.scopes)" version="0" />
     <module reference="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" version="0" />

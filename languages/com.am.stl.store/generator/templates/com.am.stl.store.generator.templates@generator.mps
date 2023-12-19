@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:1ccbfe38-34e5-4272-b09f-a9250a07a9ef(com.am.stl.shopify.store.generator.templates@generator)">
+<model ref="r:8ce97cf3-2bb2-4eb0-bb5f-8258aaea7e1c(com.am.stl.store.generator.templates@generator)">
   <persistence version="9" />
   <languages>
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
-    <import index="9xw2" ref="r:2d27c206-5993-482e-a21e-73423d64f0b8(com.am.stl.shopify.store.structure)" />
+    <import index="n59r" ref="r:41cab9df-591c-4e36-a60c-35ef9559ae69(com.am.stl.store.structure)" />
   </imports>
   <registry>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
@@ -17,7 +17,7 @@
       </concept>
     </language>
   </registry>
-  <node concept="bUwia" id="3X9U0Y_SF5V">
+  <node concept="bUwia" id="3X9U0Y_GWsB">
     <property role="TrG5h" value="main" />
   </node>
 </model>

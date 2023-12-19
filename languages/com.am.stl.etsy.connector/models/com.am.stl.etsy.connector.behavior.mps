@@ -8,6 +8,7 @@
   </languages>
   <imports>
     <import index="diza" ref="r:4f9cc213-900c-4814-8d69-f4e81f1595b9(com.am.stl.etsy.listing.structure)" />
+    <import index="n59r" ref="r:41cab9df-591c-4e36-a60c-35ef9559ae69(com.am.stl.store.structure)" />
     <import index="g6yx" ref="r:fdd5ab7b-8530-421a-914d-a1385da77810(com.am.stl.etsy.connector.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -152,15 +153,15 @@
                         </node>
                       </node>
                       <node concept="3Tsc0h" id="2dV9xQ4xTp5" role="2OqNvi">
-                        <ref role="3TtcxE" to="diza:5FXNPtKKa5d" resolve="lines" />
+                        <ref role="3TtcxE" to="n59r:5FXNPtKKa5d" resolve="lines" />
                       </node>
                     </node>
                     <node concept="TSZUe" id="5NvSES23jU6" role="2OqNvi">
                       <node concept="2pJPEk" id="5NvSES23k9x" role="25WWJ7">
                         <node concept="2pJPED" id="5NvSES23k9z" role="2pJPEn">
-                          <ref role="2pJxaS" to="diza:69CvMRnXlHG" resolve="TextLine" />
+                          <ref role="2pJxaS" to="n59r:69CvMRnXlHG" resolve="TextLine" />
                           <node concept="2pJxcG" id="5NvSES23kGl" role="2pJxcM">
-                            <ref role="2pJxcJ" to="diza:69CvMRnXlHH" resolve="line" />
+                            <ref role="2pJxcJ" to="n59r:69CvMRnXlHH" resolve="line" />
                             <node concept="WxPPo" id="5NvSES23kTW" role="28ntcv">
                               <node concept="2GrUjf" id="2dV9xQ4xYR6" role="WxPPp">
                                 <ref role="2Gs0qQ" node="2dV9xQ4xQut" resolve="line" />
@@ -198,13 +199,13 @@
                     <node concept="37vLTI" id="2dV9xQ4xmBJ" role="3clFbG">
                       <node concept="2pJPEk" id="2dV9xQ4xmT5" role="37vLTx">
                         <node concept="2pJPED" id="2dV9xQ4xmT7" role="2pJPEn">
-                          <ref role="2pJxaS" to="diza:5FXNPtKK9nd" resolve="Text" />
+                          <ref role="2pJxaS" to="n59r:5FXNPtKK9nd" resolve="Text" />
                           <node concept="2pIpSj" id="2dV9xQ4xLJq" role="2pJxcM">
-                            <ref role="2pIpSl" to="diza:5FXNPtKKa5d" resolve="lines" />
+                            <ref role="2pIpSl" to="n59r:5FXNPtKKa5d" resolve="lines" />
                             <node concept="2pJPED" id="2dV9xQ4xLWK" role="28nt2d">
-                              <ref role="2pJxaS" to="diza:69CvMRnXlHG" resolve="TextLine" />
+                              <ref role="2pJxaS" to="n59r:69CvMRnXlHG" resolve="TextLine" />
                               <node concept="2pJxcG" id="2dV9xQ4xMaa" role="2pJxcM">
-                                <ref role="2pJxcJ" to="diza:69CvMRnXlHH" resolve="line" />
+                                <ref role="2pJxcJ" to="n59r:69CvMRnXlHH" resolve="line" />
                                 <node concept="WxPPo" id="2dV9xQ4xO56" role="28ntcv">
                                   <node concept="2GrUjf" id="2dV9xQ4xO54" role="WxPPp">
                                     <ref role="2Gs0qQ" node="2dV9xQ4xMyG" resolve="line" />
@@ -253,15 +254,15 @@
                 </node>
               </node>
               <node concept="3Tsc0h" id="5NvSES24n29" role="2OqNvi">
-                <ref role="3TtcxE" to="diza:5FXNPtKKa5d" resolve="lines" />
+                <ref role="3TtcxE" to="n59r:5FXNPtKKa5d" resolve="lines" />
               </node>
             </node>
             <node concept="TSZUe" id="5NvSES24n2a" role="2OqNvi">
               <node concept="2pJPEk" id="5NvSES24n2b" role="25WWJ7">
                 <node concept="2pJPED" id="5NvSES24n2c" role="2pJPEn">
-                  <ref role="2pJxaS" to="diza:69CvMRnXlHG" resolve="TextLine" />
+                  <ref role="2pJxaS" to="n59r:69CvMRnXlHG" resolve="TextLine" />
                   <node concept="2pJxcG" id="5NvSES24n2d" role="2pJxcM">
-                    <ref role="2pJxcJ" to="diza:69CvMRnXlHH" resolve="line" />
+                    <ref role="2pJxcJ" to="n59r:69CvMRnXlHH" resolve="line" />
                     <node concept="WxPPo" id="5NvSES24n2e" role="28ntcv">
                       <node concept="37vLTw" id="5NvSES24n2f" role="WxPPp">
                         <ref role="3cqZAo" node="5NvSES24n2i" resolve="line" />

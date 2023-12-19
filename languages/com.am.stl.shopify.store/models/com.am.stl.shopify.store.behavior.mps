@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:e3074ba4-0d13-4b75-aa32-2216f81123df(com.am.stl.shopify.store.behavior)">
+<model ref="r:352c7f53-b2fd-4088-9a5a-bf551ef1d1b0(com.am.stl.shopify.store.behavior)">
   <persistence version="9" />
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />

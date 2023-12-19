@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:67640b8b-8950-4240-bacd-6f8ed187040f(com.am.stl.shopify.store.typesystem)">
+<model ref="r:2d1214fc-4c90-4ea9-b684-76cedcd53b00(com.am.stl.store.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
