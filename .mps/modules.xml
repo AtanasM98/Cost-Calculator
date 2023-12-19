@@ -3,13 +3,14 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/com.am.stl.cost.sheet/com.am.stl.cost.sheet.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/com.am.stl.etsy.connector/com.am.stl.etsy.connector.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/com.am.stl.etsy.listing/com.am.stl.etsy.listing.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/com.am.stl.shopify.connector/com.am.stl.shopify.connector.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/com.am.stl.shopify.store/com.am.stl.shopify.store.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.am.stl.etsy.connector/com.am.stl.etsy.connector.mpl" folder="etsy" />
+      <modulePath path="$PROJECT_DIR$/languages/com.am.stl.etsy.listing/com.am.stl.etsy.listing.mpl" folder="etsy" />
+      <modulePath path="$PROJECT_DIR$/languages/com.am.stl.shopify.connector/com.am.stl.shopify.connector.mpl" folder="shopify" />
+      <modulePath path="$PROJECT_DIR$/languages/com.am.stl.shopify.store/com.am.stl.shopify.store.mpl" folder="shopify" />
+      <modulePath path="$PROJECT_DIR$/languages/com.am.stl.store/com.am.stl.store.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.am.stl.amminiature.store/com.am.stl.amminiature.store.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.am.stl.costcalculator.runtime/com.am.stl.costcalculator.runtime.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/com.am.stl.etsy.connector.runtime/com.am.stl.etsy.connector.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.am.stl.etsy.connector.runtime/com.am.stl.etsy.connector.runtime.msd" folder="etsy" />
       <modulePath path="$PROJECT_DIR$/solutions/com.am.stl.libs/com.am.stl.libs.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/jim.stl.meshImporter/jim.stl.meshImporter.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/kaitai.stl.parser/kaitai.stl.parser.msd" folder="" />
