@@ -20,6 +20,11 @@
     <import index="ni5j" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.regex(JDK/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="wowo" ref="1d891f7b-dc93-42f9-a4bc-b016656b14e2/java:org.apache.poi.xssf.usermodel(com.mbeddr.spreadsheat/)" />
+    <import index="urs3" ref="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
+    <import index="9r19" ref="d936855b-48da-4812-a8a0-2bfddd633ac5/java:jetbrains.mps.core.aspects.behaviour.api(jetbrains.mps.lang.behavior.api/)" />
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+    <import index="2k9e" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure(MPS.Core/)" />
+    <import index="manl" ref="d936855b-48da-4812-a8a0-2bfddd633ac5/java:jetbrains.mps.core.aspects.behaviour(jetbrains.mps.lang.behavior.api/)" />
     <import index="48kf" ref="r:5f41c82d-84d1-4fb1-a1cf-6697d2365854(com.mbeddr.mpsutil.filepicker.behavior)" implicit="true" />
     <import index="qc5o" ref="r:5e7f3c8c-67fb-48ea-b063-9f07a9288c6d(com.am.stl.cost.sheet.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -292,6 +297,7 @@
       </concept>
       <concept id="1237909114519" name="jetbrains.mps.baseLanguage.collections.structure.GetValuesOperation" flags="nn" index="T8wYR" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
+      <concept id="1240325842691" name="jetbrains.mps.baseLanguage.collections.structure.AsSequenceOperation" flags="nn" index="39bAoz" />
       <concept id="1201872418428" name="jetbrains.mps.baseLanguage.collections.structure.GetKeysOperation" flags="nn" index="3lbrtF" />
       <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
         <child id="1197683466920" name="keyType" index="3rvQeY" />
@@ -2499,13 +2505,16 @@
                   <node concept="37vLTI" id="1NGBtAeUtZ0" role="3clFbG">
                     <node concept="1rXfSq" id="1NGBtAeUucw" role="37vLTx">
                       <ref role="37wK5l" node="1NGBtAeT5BE" resolve="collectFiles" />
-                      <node concept="2OqwBi" id="1NGBtAeUuHy" role="37wK5m">
-                        <node concept="2GrUjf" id="1NGBtAeUuod" role="2Oq$k0">
-                          <ref role="2Gs0qQ" node="1NGBtAeU4fl" resolve="file" />
+                      <node concept="2OqwBi" id="3X9U0YAwM_8" role="37wK5m">
+                        <node concept="2OqwBi" id="1NGBtAeUuHy" role="2Oq$k0">
+                          <node concept="2GrUjf" id="1NGBtAeUuod" role="2Oq$k0">
+                            <ref role="2Gs0qQ" node="1NGBtAeU4fl" resolve="file" />
+                          </node>
+                          <node concept="liA8E" id="1NGBtAeUvo0" role="2OqNvi">
+                            <ref role="37wK5l" to="guwi:~File.listFiles()" resolve="listFiles" />
+                          </node>
                         </node>
-                        <node concept="liA8E" id="1NGBtAeUvo0" role="2OqNvi">
-                          <ref role="37wK5l" to="guwi:~File.listFiles()" resolve="listFiles" />
-                        </node>
+                        <node concept="39bAoz" id="3X9U0YAwNbc" role="2OqNvi" />
                       </node>
                       <node concept="37vLTw" id="1NGBtAeUwkf" role="37wK5m">
                         <ref role="3cqZAo" node="1NGBtAeUvMK" resolve="include" />
@@ -2632,13 +2641,16 @@
                             <node concept="3QWeyG" id="3f99iaNnIk6" role="2OqNvi">
                               <node concept="1rXfSq" id="3f99iaNnIk7" role="576Qk">
                                 <ref role="37wK5l" node="1NGBtAeT5BE" resolve="collectFiles" />
-                                <node concept="2OqwBi" id="3f99iaNnIk8" role="37wK5m">
-                                  <node concept="2GrUjf" id="3f99iaNnIk9" role="2Oq$k0">
-                                    <ref role="2Gs0qQ" node="1NGBtAeT6DG" resolve="file" />
+                                <node concept="2OqwBi" id="3X9U0YAwGBH" role="37wK5m">
+                                  <node concept="2OqwBi" id="3f99iaNnIk8" role="2Oq$k0">
+                                    <node concept="2GrUjf" id="3f99iaNnIk9" role="2Oq$k0">
+                                      <ref role="2Gs0qQ" node="1NGBtAeT6DG" resolve="file" />
+                                    </node>
+                                    <node concept="liA8E" id="3f99iaNnIka" role="2OqNvi">
+                                      <ref role="37wK5l" to="guwi:~File.listFiles()" resolve="listFiles" />
+                                    </node>
                                   </node>
-                                  <node concept="liA8E" id="3f99iaNnIka" role="2OqNvi">
-                                    <ref role="37wK5l" to="guwi:~File.listFiles()" resolve="listFiles" />
-                                  </node>
+                                  <node concept="39bAoz" id="4VaRzTw3EMc" role="2OqNvi" />
                                 </node>
                                 <node concept="Xl_RD" id="3f99iaNnMg8" role="37wK5m" />
                                 <node concept="37vLTw" id="552ziWH5JKu" role="37wK5m">
@@ -2675,13 +2687,16 @@
                               <node concept="3QWeyG" id="1NGBtAeUeAC" role="2OqNvi">
                                 <node concept="1rXfSq" id="1NGBtAeTbo9" role="576Qk">
                                   <ref role="37wK5l" node="1NGBtAeT5BE" resolve="collectFiles" />
-                                  <node concept="2OqwBi" id="1NGBtAeTbQT" role="37wK5m">
-                                    <node concept="2GrUjf" id="1NGBtAeTbr8" role="2Oq$k0">
-                                      <ref role="2Gs0qQ" node="1NGBtAeT6DG" resolve="file" />
+                                  <node concept="2OqwBi" id="3X9U0YAwKgf" role="37wK5m">
+                                    <node concept="2OqwBi" id="1NGBtAeTbQT" role="2Oq$k0">
+                                      <node concept="2GrUjf" id="1NGBtAeTbr8" role="2Oq$k0">
+                                        <ref role="2Gs0qQ" node="1NGBtAeT6DG" resolve="file" />
+                                      </node>
+                                      <node concept="liA8E" id="1NGBtAeTc9w" role="2OqNvi">
+                                        <ref role="37wK5l" to="guwi:~File.listFiles()" resolve="listFiles" />
+                                      </node>
                                     </node>
-                                    <node concept="liA8E" id="1NGBtAeTc9w" role="2OqNvi">
-                                      <ref role="37wK5l" to="guwi:~File.listFiles()" resolve="listFiles" />
-                                    </node>
+                                    <node concept="39bAoz" id="3X9U0YAwKR8" role="2OqNvi" />
                                   </node>
                                   <node concept="37vLTw" id="1NGBtAeTdjl" role="37wK5m">
                                     <ref role="3cqZAo" node="1NGBtAeT5HX" resolve="include" />
@@ -2792,8 +2807,8 @@
       </node>
       <node concept="37vLTG" id="1NGBtAeTaPO" role="3clF46">
         <property role="TrG5h" value="files" />
-        <node concept="10Q1$e" id="1NGBtAeTaTK" role="1tU5fm">
-          <node concept="3uibUv" id="1NGBtAeTaT5" role="10Q1$1">
+        <node concept="A3Dl8" id="3X9U0YAwNK4" role="1tU5fm">
+          <node concept="3uibUv" id="3X9U0YAwNK6" role="A3Ik2">
             <ref role="3uigEE" to="guwi:~File" resolve="File" />
           </node>
         </node>
