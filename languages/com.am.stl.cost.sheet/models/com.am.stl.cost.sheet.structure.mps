@@ -227,6 +227,11 @@
       <property role="TrG5h" value="showScales" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="614av7Pfn3x" role="1TKVEl">
+      <property role="IQ2nx" value="6936715445235708129" />
+      <property role="TrG5h" value="showImages" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyi" id="7O$5kAXyeQq" role="1TKVEl">
       <property role="IQ2nx" value="9017355760359239066" />
       <property role="TrG5h" value="fullPrice32mm" />
